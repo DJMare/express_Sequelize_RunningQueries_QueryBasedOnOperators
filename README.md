@@ -54,9 +54,9 @@ COMMAND PROMPT
 
 VS CODE
 
-(13) Navigate to the routes/index.js file.: ![Open index js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69103754-3e6b0680-0a34-11ea-886e-6f6f4fac5662.JPG)
+(13) Navigate to the routes/index.js file.: 
 
-(14) Require mysql2 in routes/index.js file: ![require mysql2 in index js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69103790-5c386b80-0a34-11ea-99f8-1c176507ffb9.JPG)
+(14) Require mysql2 in routes/index.js file: 
 
 
 COMMAND PROMPT
@@ -72,7 +72,7 @@ COMMAND PROMPT
 
 VS CODE
 
-(17) Open config/config.json file and change settings to connect to the database: ![update database info in config-config json file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69103865-8be77380-0a34-11ea-9035-a6f475887898.JPG)
+(17) Open config/config.json file and change settings to connect to the database: 
 
 
 COMMAND PROMPT
@@ -91,17 +91,15 @@ COMMAND PROMPT
     
 VS CODE
 
-(21) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application: ![Open app js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69103931-b6d1c780-0a34-11ea-9320-c246e9fb5eb6.JPG)
+(21) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application: 
 
-![Require models in app js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69103988-e97bc000-0a34-11ea-82fc-c26ecc852efb.JPG)
+(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
-(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add sequelize sync in app js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69104106-44151c00-0a35-11ea-94dc-3e5651104035.JPG)
+(23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: 
 
-(23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: ![Create and add handlebars code for specificActor in the views folder (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69156556-96941e00-0ab1-11ea-9a7b-3f090eebe5c2.JPG)
+(24) In the routes/index.js file, require the models.: 
 
-(24) In the routes/index.js file, require the models.: ![require models in index js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69104415-21373780-0a36-11ea-9463-d184e33cd4f8.JPG)
-
-(25) Add a get() route for /specificActor and /actor/:id to the routes/index.js file.: ![add get() routes in index js file (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69104203-92c2b600-0a35-11ea-87d4-23a520cb4d2c.JPG)
+(25) Add a get() route for /specificActor and /actor/:id to the routes/index.js file.: 
 
 
 COMMAND PROMPT
@@ -112,7 +110,7 @@ COMMAND PROMPT
 
 WEB BROWSER
 
-(27) Navigate to localhost3000/actor/[insert number] to view the actor based on ID.: ![navigate to localhost3000 to view actors based on ID (Sequelize_RunningQueries_QueryBasedOnID)](https://user-images.githubusercontent.com/35668707/69156671-c4796280-0ab1-11ea-8cbd-e1a104ef2df7.JPG)
+(27) Navigate to localhost3000/actors to view the actor based on ID.: 
 
 
 NODEMON NOTE
