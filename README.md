@@ -92,7 +92,7 @@ VS CODE
 
 (21) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application: ![Require models in app js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394634-8bf0a900-0caa-11ea-8f9f-3983784128df.JPG)
 
-(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
+(22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add models sequelize sync  in app js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394671-adea2b80-0caa-11ea-839d-102a6bdf3dfc.JPG)
 
 (23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: 
 
