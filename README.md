@@ -96,7 +96,7 @@ VS CODE
 
 (23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: ![create specificActor hbs file and add code in views folder (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394712-cce8bd80-0caa-11ea-855d-fec6ab942be2.JPG)
 
-(24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: 
+(24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: ![Require Sequelize and set Sequelize Op to a variable index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394773-f9043e80-0caa-11ea-8a96-6dfb133a814e.JPG)
 
 (25) Add a get() route for /specificActor, /actor/:id and /actors to the routes/index.js file.: 
 
