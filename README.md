@@ -94,7 +94,7 @@ VS CODE
 
 (22) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add models sequelize sync  in app js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394671-adea2b80-0caa-11ea-839d-102a6bdf3dfc.JPG)
 
-(23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: 
+(23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: ![create specificActor hbs file and add code in views folder (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394712-cce8bd80-0caa-11ea-855d-fec6ab942be2.JPG)
 
 (24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: 
 
