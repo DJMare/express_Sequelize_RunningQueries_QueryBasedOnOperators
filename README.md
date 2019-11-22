@@ -98,7 +98,7 @@ VS CODE
 
 (24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: ![Require Sequelize and set Sequelize Op to a variable index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394773-f9043e80-0caa-11ea-8a96-6dfb133a814e.JPG)
 
-(25) Add a get() route for /specificActor, /actor/:id and /actors to the routes/index.js file.: 
+(25) Add a get() route for /specificActor, /actor/:id and /actors to the routes/index.js file.: ![Add get() route for actors index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394823-19cc9400-0cab-11ea-9704-d9886d44a3c8.JPG)
 
 (26) Update the /actors route with queries using the operators.: 
 
