@@ -110,7 +110,7 @@ COMMAND PROMPT
 
 WEB BROWSER
 
-(27) Navigate to localhost3000/actors to view the actor based on ID.: 
+(27) Navigate to localhost3000/actors to view the actor based on the queries in the get() routes using the operators. 
 
 
 NODEMON NOTE
