@@ -97,9 +97,11 @@ VS CODE
 
 (23) In the views folder, create a specificActor.hbs file and add code to show the names of the actors.: 
 
-(24) In the routes/index.js file, require the models.: 
+(24) In the routes/index.js file, require models, Sequelize and Sequelize Operators.: 
 
-(25) Add a get() route for /specificActor and /actor/:id to the routes/index.js file.: 
+(25) Add a get() route for /specificActor, /actor/:id and /actors to the routes/index.js file.: 
+
+(26) Update the /actors route with queries using the operators.: 
 
 
 COMMAND PROMPT
