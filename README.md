@@ -54,7 +54,7 @@ COMMAND PROMPT
 
 VS CODE
 
-(13) Navigate to the routes/index.js file.: 
+(13) Navigate to the routes/index.js file.: ![Open index js file (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69394456-108ef780-0caa-11ea-81de-9b8088a6f01d.JPG)
 
 (14) Require mysql2 in routes/index.js file: 
 
