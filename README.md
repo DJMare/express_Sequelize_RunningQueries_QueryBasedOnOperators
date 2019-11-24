@@ -23,7 +23,7 @@ COMMAND PROMPT
 
     express --view=hbs express_Sequelize_RunningQueries_QueryBasedOnOperators
 
-(6) Once the process is complete, navigate into the Express_Sequelize_RunningQueries_QueryBasedOnOperators directory: 
+(6) Once the process is complete, navigate into the express_Sequelize_RunningQueries_QueryBasedOnOperators directory: 
 
     cd express_Sequelize_RunningQueries_QueryBasedOnOperators
     
