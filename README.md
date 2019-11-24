@@ -110,8 +110,7 @@ COMMAND PROMPT
 
 WEB BROWSER
 
-(27) Navigate to localhost3000/actors to view the actor based on the queries in the get() routes using the operators. 
-
+(27) Navigate to localhost3000/actors to view the actor based on the queries in the get() routes using the operators.: ![Navigate to localhost3000-actors to view list of actors (Sequelize_RunningQueries_QueryBasedOnOperators)](https://user-images.githubusercontent.com/35668707/69503575-f2fba100-0ee8-11ea-9706-e58f0cedb4b0.JPG)
 
 NODEMON NOTE
 
