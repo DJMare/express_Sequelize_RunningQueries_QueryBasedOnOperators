@@ -27,7 +27,7 @@ COMMAND PROMPT
 
     cd express_Sequelize_RunningQueries_QueryBasedOnOperators
     
-(7) Now in the Express_Sequelize_RunningQueries_QueryBasedOnOperators directory, run the following: 
+(7) Now in the express_Sequelize_RunningQueries_QueryBasedOnOperators directory, run the following: 
 
     npm install
 
