@@ -1,4 +1,4 @@
-# Express_Sequelize_RunningQueries_QueryBasedOnOperators
+# Sequelize_RunningQueries_QueryBasedOnOperators
 An Express app utilizing sequelize to connect to mySQL and running query based on operators.
 
 COMMAND PROMPT
